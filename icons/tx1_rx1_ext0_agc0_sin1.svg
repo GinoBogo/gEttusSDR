@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="403px"
+   height="384px"
+   viewBox="-0.5 -0.5 403 384"
+   id="svg78"
+   sodipodi:docname="tx1_rx1_ext0_agc0_sin1.svg"
+   inkscape:version="1.0.2 (e86c870, 2021-01-15)">
+  <metadata
+     id="metadata82">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview80"
+     showgrid="false"
+     inkscape:snap-text-baseline="true"
+     inkscape:zoom="2.2578125"
+     inkscape:cx="201.5"
+     inkscape:cy="192"
+     inkscape:current-layer="svg78"
+     inkscape:snap-center="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid120"
+       spacingx="4"
+       spacingy="4"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <path
+     d="M 152.53,248 H 101.47"
+     fill="none"
+     stroke="#000000"
+     stroke-width="4"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path4" />
+  <path
+     d="m 162.53,248 -10,5 v -10 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="4"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path6" />
+  <path
+     d="m 91.47,248 10,-5 v 10 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="4"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path8" />
+  <path
+     d="M 267.98962,207.12 268,179 q 0.0104,-10 -10.37199,-10 h -20.24563 q -10.38237,0 -10.38237,9.38 v 9.38"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path10" />
+  <path
+     d="m 227,195.76 -4,-8 h 8 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path12" />
+  <rect
+     x="89"
+     y="-237"
+     width="10"
+     height="20"
+     fill="#ffffff"
+     stroke="#000000"
+     transform="rotate(90)"
+     pointer-events="all"
+     id="rect14" />
+  <rect
+     x="198"
+     y="-237"
+     width="10"
+     height="20"
+     fill="#ffffff"
+     stroke="#000000"
+     transform="rotate(90)"
+     pointer-events="all"
+     id="rect16" />
+  <rect
+     x="287"
+     y="259"
+     width="10"
+     height="20"
+     fill="#ffffff"
+     stroke="#000000"
+     pointer-events="all"
+     id="rect18" />
+  <rect
+     x="287"
+     y="219"
+     width="10"
+     height="20"
+     fill="#ffffff"
+     stroke="#000000"
+     pointer-events="all"
+     id="rect20" />
+  <rect
+     x="7"
+     y="168"
+     width="80"
+     height="160"
+     rx="5.3400002"
+     ry="5.3400002"
+     fill="#cccccc"
+     stroke="#6881b3"
+     stroke-width="5.33"
+     pointer-events="all"
+     id="rect22" />
+  <path
+     d="M 7,194.67 H 87 M 7,248 h 80"
+     fill="none"
+     stroke="#6881b3"
+     stroke-width="5.33"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path24" />
+  <circle
+     cx="19.5"
+     cy="259.5"
+     fill="#ffffff"
+     stroke="none"
+     pointer-events="all"
+     id="ellipse26"
+     r="5.3333335"
+     style="stroke:#000000;stroke-opacity:1" />
+  <rect
+     x="27"
+     y="338"
+     width="40"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect28" />
+  <rect
+     x="167"
+     y="208"
+     width="120"
+     height="80"
+     rx="12"
+     ry="12"
+     fill="#e1d5e7"
+     stroke="#9673a6"
+     stroke-width="5"
+     pointer-events="all"
+     id="rect36" />
+  <rect
+     x="202"
+     y="239"
+     width="50"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect38" />
+  <rect
+     x="292"
+     y="189"
+     width="30"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect46" />
+  <rect
+     x="292"
+     y="289"
+     width="30"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect54" />
+  <rect
+     x="167"
+     y="9"
+     width="120"
+     height="80"
+     rx="12"
+     ry="12"
+     fill="#fff2cc"
+     stroke="#d6b656"
+     stroke-width="5"
+     pointer-events="all"
+     id="rect62" />
+  <rect
+     x="182"
+     y="39"
+     width="90"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect64" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="189.82155"
+     y="55.635429"
+     id="text139"><tspan
+       sodipodi:role="line"
+       id="tspan137"
+       x="189.82155"
+       y="55.635429"
+       style="font-size:18.6667px;text-align:start;text-anchor:start">REF-OSC</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="209.37692"
+     y="254.63542"
+     id="text139-3"><tspan
+       sodipodi:role="line"
+       id="tspan137-6"
+       x="209.37692"
+       y="254.63542"
+       style="font-size:18.6667px;text-align:start;text-anchor:start">SDR</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="303.5"
+     y="207.5"
+     id="text139-3-7"><tspan
+       sodipodi:role="line"
+       id="tspan137-6-5"
+       x="303.5"
+       y="207.5"
+       style="font-size:18.6667px;text-align:start;text-anchor:start">TX</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="303.5"
+     y="303.5"
+     id="text139-3-7-3"><tspan
+       sodipodi:role="line"
+       id="tspan137-6-5-5"
+       x="303.5"
+       y="303.5"
+       style="font-size:18.6667px;text-align:start;text-anchor:start">RX</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="34.690735"
+     y="351.5"
+     id="text139-3-7-3-6"><tspan
+       sodipodi:role="line"
+       id="tspan137-6-5-5-2"
+       x="34.690735"
+       y="351.5"
+       style="font-size:18.6667px;text-align:start;text-anchor:start">PC</tspan></text>
+  <g
+     id="g232"
+     transform="translate(0.235,1.5)">
+    <path
+       d="m 367.265,267.5 h -55.53"
+       fill="none"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path70" />
+    <path
+       d="m 301.735,267.5 10,-5 v 10 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path72" />
+  </g>
+  <g
+     id="g232-3"
+     transform="matrix(-1,0,0,1,664.37258,-38.5)">
+    <path
+       d="m 367.265,267.5 h -55.53"
+       fill="none"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path70-6" />
+    <path
+       d="m 301.735,267.5 10,-5 v 10 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path72-7" />
+  </g>
+  <g
+     id="g49">
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 111.5,223.5 c 0,0 3.1926,-12 8,-12 4.8074,0 8,12 8,12 0,0 3.1926,12 8,12 4.8074,0 8,-12 8,-12"
+       id="path39"
+       sodipodi:nodetypes="cacac" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 103.5,223.5 h 48"
+       id="path37" />
+  </g>
+</svg>
