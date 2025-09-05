@@ -3,6 +3,7 @@ __version__ = "1.0"
 __date__    = "February, 2021"
 __author__  = "Gino Francesco Bogo"
 """
+
 import os
 import subprocess
 import sys
@@ -59,7 +60,7 @@ def cfg_writer(cfg):
         pos = K.rfind(".")
         if pos > 0:
             L = K[:pos]
-            R = K[pos + 1:]
+            R = K[pos + 1 :]
             if title != L:
                 title = L
                 if first:
@@ -116,48 +117,48 @@ class MainWindow(QMainWindow):
     def add_missing_cfg(self):  # pylint:disable=too-many-branches
         # [board.common]
         if not "board.common.serial_number" in self.m_cfg:
-            self.m_cfg["board.common.serial_number"] = 'any'
+            self.m_cfg["board.common.serial_number"] = "any"
         if not "board.common.fp_chunks_number" in self.m_cfg:
-            self.m_cfg["board.common.fp_chunks_number"] = '200'
+            self.m_cfg["board.common.fp_chunks_number"] = "200"
         if not "board.common.clock_source" in self.m_cfg:
-            self.m_cfg["board.common.clock_source"] = 'internal'
+            self.m_cfg["board.common.clock_source"] = "internal"
         if not "board.common.enable_tx" in self.m_cfg:
-            self.m_cfg["board.common.enable_tx"] = 'false'
+            self.m_cfg["board.common.enable_tx"] = "false"
         if not "board.common.enable_rx" in self.m_cfg:
-            self.m_cfg["board.common.enable_rx"] = 'true'
+            self.m_cfg["board.common.enable_rx"] = "true"
         if not "board.common.folder_tx" in self.m_cfg:
-            self.m_cfg["board.common.folder_tx"] = '.'
+            self.m_cfg["board.common.folder_tx"] = "."
         if not "board.common.folder_rx" in self.m_cfg:
-            self.m_cfg["board.common.folder_rx"] = '.'
+            self.m_cfg["board.common.folder_rx"] = "."
         # [board.tx]
         if not "board.tx.sample_rate" in self.m_cfg:
-            self.m_cfg["board.tx.sample_rate"] = '3.2e6'
+            self.m_cfg["board.tx.sample_rate"] = "3.2e6"
         if not "board.tx.center_frequency" in self.m_cfg:
-            self.m_cfg["board.tx.center_frequency"] = '400.0e6'
+            self.m_cfg["board.tx.center_frequency"] = "400.0e6"
         if not "board.tx.bandwidth" in self.m_cfg:
-            self.m_cfg["board.tx.bandwidth"] = '4.8e6'
+            self.m_cfg["board.tx.bandwidth"] = "4.8e6"
         if not "board.tx.gain" in self.m_cfg:
-            self.m_cfg["board.tx.gain"] = '30.0'
-       # [board.rx]
+            self.m_cfg["board.tx.gain"] = "30.0"
+        # [board.rx]
         if not "board.rx.sample_rate" in self.m_cfg:
-            self.m_cfg["board.rx.sample_rate"] = '3.2e6'
+            self.m_cfg["board.rx.sample_rate"] = "3.2e6"
         if not "board.rx.center_frequency" in self.m_cfg:
-            self.m_cfg["board.rx.center_frequency"] = '400.0e6'
+            self.m_cfg["board.rx.center_frequency"] = "400.0e6"
         if not "board.rx.bandwidth" in self.m_cfg:
-            self.m_cfg["board.rx.bandwidth"] = '4.8e6'
+            self.m_cfg["board.rx.bandwidth"] = "4.8e6"
         if not "board.rx.gain" in self.m_cfg:
-            self.m_cfg["board.rx.gain"] = '30.0'
+            self.m_cfg["board.rx.gain"] = "30.0"
         if not "board.rx.enable_agc" in self.m_cfg:
-            self.m_cfg["board.rx.enable_agc"] = 'false'
+            self.m_cfg["board.rx.enable_agc"] = "false"
         # [text]
         if not "test.enable_sin_generator" in self.m_cfg:
-            self.m_cfg["test.enable_sin_generator"] = 'false'
+            self.m_cfg["test.enable_sin_generator"] = "false"
         if not "test.sin_frequency" in self.m_cfg:
-            self.m_cfg["test.sin_frequency"] = '1.0e6'
+            self.m_cfg["test.sin_frequency"] = "1.0e6"
         if not "test.tx_frames_number" in self.m_cfg:
-            self.m_cfg["test.tx_frames_number"] = '50'
+            self.m_cfg["test.tx_frames_number"] = "50"
         if not "test.rx_frames_number" in self.m_cfg:
-            self.m_cfg["test.rx_frames_number"] = '40'
+            self.m_cfg["test.rx_frames_number"] = "40"
 
     def update_size(self):
         h = self.ui.groupBox_COM.height()
@@ -180,7 +181,7 @@ class MainWindow(QMainWindow):
             stream.close()
             self.m_cfg = cfg_reader(lines)
         else:
-            filename = '[default config values loaded]'
+            filename = "[default config values loaded]"
         self.add_missing_cfg()
         self.config_to_fields()
         self.ui.status_bar.showMessage(filename)
@@ -256,7 +257,9 @@ class MainWindow(QMainWindow):
         key += append_bit(self.ui.comboBox_enable_rx.currentText() == "true")
         key += append_bit(self.ui.comboBox_clock_source.currentText() == "external")
         key += append_bit(self.ui.comboBox_rx_enable_AGC.currentText() == "true")
-        key += append_bit(self.ui.comboBox_tx_enable_sin_generator.currentText() == "true")
+        key += append_bit(
+            self.ui.comboBox_tx_enable_sin_generator.currentText() == "true"
+        )
         if key in self.m_icons:
             icon = self.m_icons[key]
             self.ui.widget.load(icon)
@@ -329,7 +332,7 @@ class MainWindow(QMainWindow):
         self.ui.lineEdit_tx_bandwidth.setText(to_mega(value))
         value = self.m_cfg["board.tx.gain"]
         self.ui.lineEdit_tx_gain.setText(value)
-       # [board.rx]
+        # [board.rx]
         value = self.m_cfg["board.rx.sample_rate"]
         self.ui.lineEdit_rx_sample_rate.setText(to_mega(value))
         value = self.m_cfg["board.rx.center_frequency"]
@@ -379,7 +382,7 @@ class MainWindow(QMainWindow):
         self.m_cfg["board.tx.bandwidth"] = from_mega(value)
         value = self.ui.lineEdit_tx_gain.text()
         self.m_cfg["board.tx.gain"] = value
-       # [board.rx]
+        # [board.rx]
         value = self.ui.lineEdit_rx_sample_rate.text()
         self.m_cfg["board.rx.sample_rate"] = from_mega(value)
         value = self.ui.lineEdit_rx_center_frequency.text()
@@ -408,6 +411,25 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
+
+    # Force a light theme
+    from PySide2.QtGui import QPalette, QColor
+
+    palette = QPalette()
+    palette.setColor(QPalette.Window, QColor(245, 245, 245))
+    palette.setColor(QPalette.WindowText, QColor(0, 0, 0))
+    palette.setColor(QPalette.Base, QColor(255, 255, 255))
+    palette.setColor(QPalette.AlternateBase, QColor(240, 240, 240))
+    palette.setColor(QPalette.ToolTipBase, QColor(255, 255, 220))
+    palette.setColor(QPalette.ToolTipText, QColor(0, 0, 0))
+    palette.setColor(QPalette.Text, QColor(0, 0, 0))
+    palette.setColor(QPalette.Button, QColor(245, 245, 245))
+    palette.setColor(QPalette.ButtonText, QColor(0, 0, 0))
+    palette.setColor(QPalette.BrightText, QColor(255, 0, 0))
+    palette.setColor(QPalette.Highlight, QColor(76, 163, 224))
+    palette.setColor(QPalette.HighlightedText, QColor(255, 255, 255))
+    app.setPalette(palette)
+
     wnd = MainWindow()
     wnd.show()
     sys.exit(app.exec_())
